@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<CategoryClasses>
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+		<string>Ace_Turret_20PDG</string>
+	    <string>Ace_Turret_43RAC</string>
+	    <string>Ace_Turret_150mmArtillery</string>
+	    <string>Ace_Turret_220mmMissileBattery</string>
+	    <string>Ace_Turret_Flak300</string>
+		<string>Ace_Turret_400mmBlister</string>
+		<string>Ace_Turret_400mmCasemateTwin</string>
+		<string>Ace_Turret_400mmSiege</string>
+		<string>Ace_Turret_400mmAssault</string>
+		<string>Ace_Turret_400mmAssault_Var1</string>
+		<string>Ace_Turret_400mmDemolisher</string>
+		<string>Ace_Fixed_220mmMissileLauncher</string>
+		<string>Ace_Fixed_FOB1000</string>
+        <string>Ace_Fixed_FOB1500</string>
+      </ItemIds>
+    </Category>
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+		<string>Ace_Fixed_20Cannon</string>
+		<string>Ace_Fixed_25mmRotaryGun</string>
+		<string>Ace_Fixed_30Cannon</string>
+		<string>Ace_Fixed_43Cannon</string>
+		<string>Ace_Turret_20PDG_SG</string>
+	    <string>Ace_Turret_43RAC_SG</string>
+		<string>Ace_Turret_30Chaingun_SG</string>
+	    <string>Ace_Turret_300mmFlakTurret_SG</string>
+	  </ItemIds>
+    </Category>
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>ShipWeapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+		<string>Ace_Fixed_20Cannon</string>
+		<string>Ace_Fixed_25mmRotaryGun</string>
+		<string>Ace_Fixed_30Cannon</string>
+		<string>Ace_Fixed_43Cannon</string>
+		<string>Ace_Fixed_220mmMissileLauncher</string>
+        <string>Ace_Fixed_FOB1000</string>
+		<string>Ace_Fixed_FOB1500</string>
+		<string>Ace_Fixed_FC1</string>
+      </ItemIds>
+    </Category>
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>Weapons</Name>
+      <ItemIds>
+		<string>Ace_Fixed_20Cannon</string>
+		<string>Ace_Turret_20PDG</string>
+		<string>Ace_Turret_20PDG_SG</string>
+		<string>Ace_Fixed_25mmRotaryGun</string>
+		<string>Ace_Fixed_43Cannon</string>
+        <string>Ace_Turret_43RAC</string>
+		<string>Ace_Turret_43RAC_SG</string>
+		<string>Ace_Fixed_30Cannon</string>
+		<string>Ace_Turret_30Chaingun_SG</string>
+	    <string>Ace_Turret_150mmArtillery</string>
+	    <string>Ace_Turret_220mmMissileBattery</string>
+		<string>Ace_Turret_Flak300</string>
+	    <string>Ace_Turret_300mmFlakTurret_SG</string>
+		<string>Ace_Turret_400mmSiege</string>
+		<string>Ace_Turret_400mmBlister</string>
+		<string>Ace_Turret_400mmCasemateTwin</string>
+		<string>Ace_Turret_400mmAssault</string>
+		<string>Ace_Turret_400mmAssault_Var1</string>
+		<string>Ace_Turret_400mmDemolisher</string>
+		<string>Ace_Fixed_220mmMissileLauncher</string>
+		<string>Ace_Fixed_FOB1000</string>
+        <string>Ace_Fixed_FOB1500</string>
+      </ItemIds>
+    </Category>
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Assault Cannons</DisplayName>
+      <Name>Assault Cannons</Name>
+      <ItemIds>
+		<string>Ace_Fixed_20Cannon</string>
+		<string>Ace_Turret_20PDG</string>
+		<string>Ace_Turret_20PDG_SG</string>
+		<string>Ace_Fixed_25mmRotaryGun</string>
+		<string>Ace_Fixed_43Cannon</string>
+        <string>Ace_Turret_43RAC</string>
+		<string>Ace_Turret_43RAC_SG</string>
+		<string>Ace_Fixed_30Cannon</string>
+		<string>Ace_Turret_30Chaingun_SG</string>
+	    <string>Ace_Turret_150mmArtillery</string>
+	    <string>Ace_Turret_220mmMissileBattery</string>
+		<string>Ace_Turret_Flak300</string>
+	    <string>Ace_Turret_300mmFlakTurret_SG</string>
+		<string>Ace_Turret_400mmSiege</string>
+		<string>Ace_Turret_400mmBlister</string>
+		<string>Ace_Turret_400mmCasemateTwin</string>
+		<string>Ace_Turret_400mmAssault</string>
+		<string>Ace_Turret_400mmAssault_Var1</string>
+		<string>Ace_Turret_400mmDemolisher</string>
+		<string>Ace_Fixed_220mmMissileLauncher</string>
+		<string>Ace_Fixed_FOB1000</string>
+        <string>Ace_Fixed_FOB1500</string>
+      </ItemIds>
+    </Category>
+	
+	</CategoryClasses>
+	
+</Definitions>

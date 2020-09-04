@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_20x110mmAmmoBox</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_20mmAmmoBox</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.20</X>
+        <Y>0.20</Y>
+        <Z>0.20</Z>
+      </Size>
+      <Mass>150</Mass>
+      <Volume>100</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>2000</Capacity>
+      <AmmoDefinitionId Subtype="Ace_20mmAmmoBox" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_30x145mmAmmoBox</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_30mmAmmoBox</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\30mmAmmoBox_Icon.png</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.20</Y>
+        <Z>0.20</Z>
+      </Size>
+      <Mass>61.5</Mass>
+      <Volume>18</Volume>
+      <Model>Models\Weapons\30mmAmmoBox.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>150</Capacity>
+      <AmmoDefinitionId Subtype="Ace_30mmAmmoBox" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_43x307mmAmmoBox</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_43mmAmmoBox</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.20</X>
+        <Y>0.20</Y>
+        <Z>0.20</Z>
+      </Size>
+      <Mass>132</Mass>
+      <Volume>100</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>600</Capacity>
+      <AmmoDefinitionId Subtype="Ace_43mmAmmoBox" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_150mmShell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_150mmShell</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\150mmShell_Icon.png</Icon>
+      <Size>
+        <X>0.06</X>
+        <Y>0.42</Y>
+        <Z>0.06</Z>
+      </Size>
+      <Mass>28.9</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Weapons\150mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_150mmShell" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_220mmBurstMissile</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_220mmBurstMissile</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\220mmBurstMissile_Icon.png</Icon>
+      <Size>
+        <X>0.06</X>
+        <Y>0.42</Y>
+        <Z>0.06</Z>
+      </Size>
+      <Mass>58.9</Mass>
+      <Volume>66</Volume>
+      <Model>Models\Weapons\220mmBurstMissile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_220mmBurstMissile" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_300mmShellFlak</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_300mmShellFlak</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\300mmShell_Icon.png</Icon>
+      <Size>
+        <X>0.11</X>
+        <Y>0.85</Y>
+        <Z>0.11</Z>
+      </Size>
+      <Mass>15.8</Mass>
+      <Volume>30</Volume>
+      <Model>Models\Weapons\300mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_300mmShellFlak" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_400mmShell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_400mmShell</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\400mmShell_Icon.png</Icon>
+      <Size>
+        <X>0.44</X>
+        <Y>1.94</Y>
+        <Z>0.44</Z>
+      </Size>
+      <Mass>166.6</Mass>
+      <Volume>38</Volume>
+      <Model>Models\Weapons\400mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_400mmShell" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_1000mmShell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_1000mmShell</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\1000mmShell_Icon.png</Icon>
+      <Size>
+        <X>1.1</X>
+        <Y>4.84</Y>
+        <Z>1.1</Z>
+      </Size>
+      <Mass>612</Mass>
+      <Volume>300</Volume>
+      <Model>Models\Weapons\1000mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_1000mmShell" />
+    </AmmoMagazine>
+
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_1500mmShell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_1500mmShell</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\1500mmShell_Icon.png</Icon>
+      <Size>
+        <X>1.65</X>
+        <Y>7.26</Y>
+        <Z>1.65</Z>
+      </Size>
+      <Mass>858</Mass>
+      <Volume>400</Volume>
+      <Model>Models\Weapons\1500mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_1500mmShell" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Ace_BadIdea1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Ace_BadIdea1</DisplayName>
+      <Icon>Textures\GUI\Icons\Ammo\FoldingChair_Icon.png</Icon>
+      <Size>
+        <X>0.53</X>
+        <Y>0.92</Y>
+        <Z>1.05</Z>
+      </Size>
+      <Mass>1.2</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Weapons\FoldingChair.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Ace_BadIdea1" />
+    </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>

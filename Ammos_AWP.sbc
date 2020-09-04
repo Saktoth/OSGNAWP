@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+   
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_20mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>800</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>40</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.4</ProjectileTrailScale>
+		<ProjectileTrailColor x="1.000" y="0.8" z="0.75" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>20</ProjectileMassDamage>
+        <ProjectileHealthDamage>30</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_30mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>500</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>40</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.3</ProjectileTrailScale>
+		<ProjectileTrailColor x="1.000" y="0.65" z="0.45" />
+        <ProjectileHitImpulse>3</ProjectileHitImpulse>
+        <ProjectileMassDamage>160</ProjectileMassDamage>
+        <ProjectileHealthDamage>68</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_43mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>600</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1500</MaxTrajectory>
+        <BackkickForce>40</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.3</ProjectileTrailScale>
+		<ProjectileTrailColor x="1.000" y="0.7" z="0.55" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>100</ProjectileMassDamage>
+        <ProjectileHealthDamage>54</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_150mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>350</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>40</MissileMass>
+        <MissileExplosionRadius>2</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\150mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>250</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>385</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_220mmBurstMissile</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>40</MissileMass>
+        <MissileExplosionRadius>9</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\220mmBurstMissile.mwm</MissileModelName>
+        <MissileAcceleration>200</MissileAcceleration>
+        <MissileInitialSpeed>100</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>300</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_300mmShellFlak</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>350</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>400</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>31</MissileMass>
+        <MissileExplosionRadius>10</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\300mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>350</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>13</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_400mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>1000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>140</MissileMass>
+        <MissileExplosionRadius>5</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\400mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>300</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>4400</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_1000mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>2000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>430</MissileMass>
+        <MissileExplosionRadius>10</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\1000mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>300</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>6500</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_1500mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>500</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>5000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>900</MissileMass>
+        <MissileExplosionRadius>18</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\1500mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>500</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>11000</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_BadIdea1</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>5000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>1000000000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>1.2</MissileMass>
+        <MissileExplosionRadius>20</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\FoldingChair.mwm</MissileModelName>
+        <MissileAcceleration>100</MissileAcceleration>
+        <MissileInitialSpeed>300</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>1</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+ 
+  </Ammos>
+</Definitions>

@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_20Cannon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="2000" ShootSoundName="20mmPDGShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <DeviateShotAngle>0.03</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_20x110mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_20PDG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="2000" ShootSoundName="20mmPDGShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.05</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_20x110mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_25RotaryGun</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="700" ShootSoundName="25mmRotaryGunSHOT" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.4</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="NATO_25x184mm" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_30Cannon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="600" ShootSoundName="30mmChaingunShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_30x145mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_30Chaingun</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="450" ShootSoundName="30mmChaingunShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.6</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_30x145mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_43Cannon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1200" ShootSoundName="20mmPDGShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+	  <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_43x307mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_43RAC</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1200" ShootSoundName="20mmPDGShot" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Ace_43x307mmAmmoBox" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_150Artillery</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="90" ShootSoundName="150mmArtilleryShot" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_150mmShell" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_220MissileLauncher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="320" ShootSoundName="220mmMissileShot" ShotsInBurst="4"/>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>1</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_220mmBurstMissile" />
+      </AmmoMagazines>
+	  <ReloadTime>1000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_220MissileBattery</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="320" ShootSoundName="220mmMissileShot" ShotsInBurst="8"/>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>2</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_220mmBurstMissile" />
+      </AmmoMagazines>
+	  <ReloadTime>4000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_300FlakTurret</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="Flak300Shot" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>5</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_300mmShellFlak" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_300FlakTurret_SG</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="Flak300Shot" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>7.5</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_300mmShellFlak" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_400Casemate</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="400Shot" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>1</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_400mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>3500</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_400Siege</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="400Shot" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.75</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_400mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>4500</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_400CasemateTwin</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="3000" ShootSoundName="400Shot" ShotsInBurst="2" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>1</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_400mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>5000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_400Assault</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="3000" ShootSoundName="400Shot" ShotsInBurst="2" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_400mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>6000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+	  <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Turret_400Demolisher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="3000" ShootSoundName="400Shot" ShotsInBurst="3" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_400mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>8500</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_FOB1000</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="1" ShootSoundName="FOB1000Shot" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.75</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_1000mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>7500</ReloadTime>
+    </Weapon>
+    
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_FOB1500</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="1" ShootSoundName="FOB1500Shot" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_1500mmShell" />
+      </AmmoMagazines>
+	  <ReloadTime>9000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Ace_Fixed_BadIdea1</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="1" ShootSoundName="BadIdea1SHOT" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.4</DeviateShotAngle>
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="Ace_BadIdea1" />
+      </AmmoMagazines>
+	  <ReloadTime>1000</ReloadTime>
+    </Weapon>
+	
+  </Weapons>
+</Definitions>

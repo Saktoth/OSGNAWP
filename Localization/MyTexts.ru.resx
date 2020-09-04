@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description_Ace_Fixed_20Cannon" xml:space="preserve">
+    <value>Небольшой 20-мм фиксированный пулемёт, под патрон 20x110 мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_25mmRotaryGun" xml:space="preserve">
+    <value>Небольшой 25-мм фиксированный пулемёт, под патрон 25x184 мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_30Cannon" xml:space="preserve">
+    <value>Небольшой 30-мм фиксированный пулемёт, под патрон 30x145 мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_43Cannon" xml:space="preserve">
+    <value>Небольшой 43-мм фиксированный пулемёт, под патрон 43x307 мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_FOB1000" xml:space="preserve">
+    <value>Передовая наступательная батарея, под патрон 1000x2945мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_FOB1500" xml:space="preserve">
+    <value>Передовая наступательная батарея, под патрон 1500x4418мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_20PDG" xml:space="preserve">
+    <value>Выделенный PDG под патрон 20х110 мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_220mmMissileBattery" xml:space="preserve">
+    <value>Усовершенствованная ракетная башня. Стреляет 220-мм ракеты.</value>
+  </data>
+  <data name="Description_Ace_Turret_30Chaingun" xml:space="preserve">
+    <value>Небольшой 30-мм пулемёт, под патрон 30x145мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmAssault" xml:space="preserve">
+    <value>Штурмовая пушка с двумя пушками, под патрон 400х1178мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmAssault_Var1" xml:space="preserve">
+    <value>Штурмовая пушка с двумя пушками, под патрон 400х1178мм. Вариант.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmBlister" xml:space="preserve">
+    <value>Однозонная казематная турель, предназначенная для широких стволов. Под патрон 400х1178мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmCasemateTwin" xml:space="preserve">
+    <value>Казематная пушка с двумя пушками, под патрон 400х1178мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmSiege" xml:space="preserve">
+    <value>Штурмовая башня с одной винтовкой, под патрон 400х1178мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_400mmDemolisher" xml:space="preserve">
+    <value>Штурмовая турель с тремя орудиями, под патрон 400х1178 мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_43RAC" xml:space="preserve">
+    <value>Поворотная автопушка вооружена AP снарядами. Под патрон 43х307мм.</value>
+  </data>
+  <data name="Description_Ace_Turret_150mmArtillery" xml:space="preserve">
+    <value>Малая штурмовая башня, под патрон 150х446мм..</value>
+  </data>
+  <data name="Description_Ace_Turret_Flak300" xml:space="preserve">
+    <value>Быстродействующая зенитная батарея под патрон 300x892 мм. Неэффективен против бронированных целей.</value>
+  </data>
+  <data name="Descripton_Ace_Fixed_20Cannon" xml:space="preserve">
+    <value>Маленький пулемёт под патрон 20х110 мм.</value>
+  </data>
+  <data name="Description_Ace_Fixed_BadIdea1" xml:space="preserve">
+    <value>Простите, эта штука стреляет в складные стулья?</value>
+  </data>
+  
+  
+  
+  <data name="DisplayName_Ace_1000mmShell" xml:space="preserve">
+    <value>Снаряд 1000x2945мм</value>
+  </data>
+  <data name="DisplayName_Ace_1500mmShell" xml:space="preserve">
+    <value>Снаряд 1500x4418мм</value>
+  </data>
+  <data name="DisplayName_Ace_150mmShell" xml:space="preserve">
+    <value>Снаряд 150x446мм</value>
+  </data>
+  <data name="DisplayName_Ace_20mmAmmoBox" xml:space="preserve">
+    <value>Ящик с патронами 20x110 мм</value>
+  </data>
+  <data name="DisplayName_Ace_220mmBurstMissile" xml:space="preserve">
+    <value>Ракета 220мм</value>
+  </data>
+  <data name="DisplayName_Ace_30mmAmmoBox" xml:space="preserve">
+    <value>Ящик с патронами 30x145 мм</value>
+  </data>
+  <data name="DisplayName_Ace_300mmShellFlak" xml:space="preserve">
+    <value>300x892мм зенитный снаряд</value>
+  </data>
+  <data name="DisplayName_Ace_400mmShell" xml:space="preserve">
+    <value>Снаряд 400x1178мм</value>
+  </data>
+  <data name="DisplayName_Ace_43mmAmmoBox" xml:space="preserve">
+    <value>Ящик с патронами 43х307 мм</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_20Cannon" xml:space="preserve">
+    <value>20-мм фиксированный пулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_25mmRotaryGun" xml:space="preserve">
+    <value>25-мм фиксированный пулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_30Cannon" xml:space="preserve">
+    <value>30-мм фиксированный пулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_43Cannon" xml:space="preserve">
+    <value>43-мм фиксированный пулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_BadIdea1" xml:space="preserve">
+    <value>Складной стул</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_FOB1000" xml:space="preserve">
+    <value>ПНБ-1000</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_FOB1500" xml:space="preserve">
+    <value>ПНБ-1500</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_20PDG" xml:space="preserve">
+    <value>20-миллиметровое орудие точечной обороны</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_220mmMissileLauncher" xml:space="preserve">
+    <value>220-мм Ракетная гранатомет</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_220mmMissileBattery" xml:space="preserve">
+    <value>220-мм Ракетная турель</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_30Chaingun" xml:space="preserve">
+    <value>30-мм автопулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmAssault" xml:space="preserve">
+    <value>400-мм штурмовая пушка</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmAssault_Var1" xml:space="preserve">
+    <value>400-мм штурмовая пушка вариант</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmBlister" xml:space="preserve">
+    <value>400-миллиметровая казематная пушка</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmCasemateTwin" xml:space="preserve">
+    <value>400-миллиметровая казематная пушка</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmSiege" xml:space="preserve">
+    <value>400-мм осадная пушка</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_400mmDemolisher" xml:space="preserve">
+    <value>400-мм тройная турель</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_43RAC" xml:space="preserve">
+    <value>43-мм автопулемёт</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_150mmArtillery" xml:space="preserve">
+    <value>150-мм Маленькая Башенка</value>
+  </data>
+  <data name="DisplayName_Ace_Turret_Flak300" xml:space="preserve">
+    <value>300-мм зенитная турель</value>
+  </data>
+  <data name="DisplayName_Ace_Fixed_BadIdea1" xml:space="preserve">
+    <value>ПНБ- чего ждать?</value>
+  </data>
+</root>

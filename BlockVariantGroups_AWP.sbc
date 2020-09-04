@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<BlockVariantGroups>
+	
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_Fixed_SG" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_20Cannon" />
+				<Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_25mmRotaryGun" />
+				<Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_30Cannon" />
+				<Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_43Cannon" />
+            </Blocks>
+       </BlockVariantGroup>
+	   
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_Defense" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_20PDG" />
+				<Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_20PDG_SG" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_43RAC" />
+				<Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_43RAC_SG" />
+				<Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_30Chaingun_SG" />
+            </Blocks>
+       </BlockVariantGroup>
+	
+	   <BlockVariantGroup>
+	        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_LightAttack" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+			    <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_150mmArtillery" />
+				<Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_220mmMissileBattery" />
+				<Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_Flak300" />
+				<Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_300mmFlakTurret_SG" />
+	        </Blocks>
+       </BlockVariantGroup>
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_400mm" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmSiege" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmAssault" />
+				<Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmAssault_Var1" />
+				<Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmDemolisher" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmBlister" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmCasemateTwin" />
+            </Blocks>
+       </BlockVariantGroup>
+	   
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_Fixed_LG" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ShipWeaponStaticGroup</DisplayName>
+            <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_220mmMissileLauncher" />
+                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_FOB1000" />
+				<Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_FOB1500" />
+            </Blocks>
+       </BlockVariantGroup>
+	
+	</BlockVariantGroups>
+	
+</Definitions>

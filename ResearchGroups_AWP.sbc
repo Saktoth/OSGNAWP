@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <ResearchGroups>
+  
+  <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="AWP_LightTurrets" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_20PDG" />
+        <BlockId Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_20PDG_SG" />
+        <BlockId Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_43RAC" />
+        <BlockId Type="MyObjectBuilder_LargeGatlingTurret" Subtype="Ace_Turret_43RAC_SG" />
+      </Members>
+  </ResearchGroup>
+  
+  <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="AWP_MediumTurrets" />
+      <Members>
+	    <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_150mmArtillery" />
+		<BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_220mmMissileBattery" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_Flak300" />
+		<BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_300mmFlakTurret_SG" />
+      </Members>
+  </ResearchGroup>
+  
+  <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="AWP_HeavyTurrets" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmSiege" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmAssault" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmAssault_Var1" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmDemolisher" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmBlister" />
+        <BlockId Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_400mmCasemateTwin" />
+      </Members>
+  </ResearchGroup>
+  
+  <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="AWP_LightFixed" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_20Cannon" />
+        <BlockId Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_25mmRotaryGun" />
+        <BlockId Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_30Cannon" />
+        <BlockId Type="MyObjectBuilder_SmallGatlingGun" Subtype="Ace_Fixed_43Cannon" />
+      </Members>
+  </ResearchGroup>
+  
+  <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="AWP_HeavyFixed" />
+      <Members>
+	    <BlockId Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_220mmMissileLauncher" />
+        <BlockId Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_FOB1000" />
+        <BlockId Type="MyObjectBuilder_SmallMissileLauncher" Subtype="Ace_Fixed_FOB1500" />
+      </Members>
+  </ResearchGroup>
+	  
+  </ResearchGroups>
+
+</Definitions>
