@@ -1,0 +1,36 @@
+20mmPDG SubPart2 Offset: Z-0.1, Y-0.4
+20mmPDG Barrels Offset: Y+0.55
+
+43mmRAC SubPart2 Offset: Z+0.05, Y-0.45
+
+400mmSiege Rifle Offset: Z+0.378, Y-0.2125
+Elevation: +48, -12
+
+400mmBlister Rifle Offset: Y+0.25
+400mmBlister Azimuth Offset: Y-0.025
+
+400mmAssault Rifle Offset: X+/-1, Y-1.2625, Z+0.4531
+
+400mmTwinCasemate Rifle Offset: Y+0.145
+
+150mmAutocannon Elevation offset: Z+0.3, Y+0.306
+
+220mmMissile Elevation offset: Z+0.5, Y-0.5
+
+BadIdea Requests:
+ - Sandfury
+ - Spectre25
+ - Will
+ - Yuna
+
+Bug Squash Help:
+ - enenra (mirroring help, collisions, block skins)
+ - Kreeg (.sbc help, subpart setup)
+ - Digi (collisions, lots of .sbc help)
+ - Spacebar (subpart_Barrel is used for fixed gatling guns)
+
+Localization:
+ - DeVindi (Russian + file setup)
+
+Cringe:
+ - PrimoSuperT (FC1 Sound)

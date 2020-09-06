@@ -1,0 +1,89 @@
+New Additions!
+
+25mm Rotary Autocannon
+ - Uses vanilla 25x184mm NATO.
+30mm Rotary Autocannon
+ - Uses existing 30x145mm Ammo Box.
+220mm Missile Pod
+ - Uses existing 220mm Burst Missile.
+300mm Flak Turret (small grid)
+ - Uses existing 300mm Flak Shell.
+ - Unique model.
+400mm Demolisher Battery
+ - Uses existing 400mm Shell.
+One very bad idea.
+ - 110% PrimoSuperT's fault.
+
+Fixes and changes:
+
+Adjusted model quality of 20mm Fixed Autocannon.
+ - Removed obscured mesh on high model quality.
+Fixed 20mm and 43mm Fixed Autocannons not automatically pulling in new ammo.
+ - See balance changes below.
+Optimized model quality on 43mm Fixed Autocannon.
+ - Includes increased model quality on all settings.
+Optimized model quality on 43mm Rotary Autocannon's barrel subpart.
+ - Inlcudes increased model quality on all settings.
+Added triangular arrow to 30mm Chaingun to assist with placement.
+Fixed offset conveyor ports on low/medium model quality.
+Adjusted collision model of 300mm Flak Battery.
+Overhauled textuing on 300mm Flak Battery.
+Optimized model quality on 300mm Flak Battery.
+Adjusted rifle modelling on all 400mm gun batteries.
+ - Non-casemate rifles are longer and bulkier.
+ - All rifles have improved lighting.
+Smoothed some rather-ugly edges on 400mm Siege, Assault, and Assault Variant cannons.
+Fixed missing mirroring angles on FOB-1000 and FOB-1500.
+
+Balance changes:
+
+Ammunition changes:
+
+Decreased mass of 20mm Ammo Box from 180 kg to 150 kg.
+Decreased volume of 20mm Ammo Box from 150 L to 100 L.
+Increased mass of 30mm Ammo Box from 40 kg to 61.5 kg.
+Decreased mass of 43mm Ammo Box from 140 kg to 132 kg.
+Decreased volume of 43mm Ammo Box from 150 L to 100 L.
+Decreased mass of 150mm Shell from 30 kg to 28.9 kg.
+Adjusted 220mm Burst Missile resource costs:
+ - Decreased magnesium cost from 3.3 to 1.8.
+Increased mass of 220mm Burst Missile from 30 kg to 58.9 kg.
+Adjusted 220mm Burst Missile resource costs:
+ - Decreased magnesium cost from 2.4 to 1.5.
+Decreased mass of 300mm Flak Shell from 40 kg to 15.8 kg.
+Adjusted 300mm Flak Shell resource costs:
+ - Decreased magnesium cost from 3.3 to 2.7.
+Decreased mass of 400mm Shell from 200 kg to 166.6 kg.
+Adjusted 400mm Shell resource costs:
+ - Decreased magnesium cost from 21.6 to 12.6.
+Increased mass of 1000mm Shell from 500 kg to 612 kg.
+Adjusted 1000mm Shell resource costs:
+ - Decreased iron cost from 480 to 360.
+ - Decreased nickel cost from 210 to 147.
+ - Decreased magnesium cost from 93 to 42.
+Decreased mass of 1500mm Shell from 1040 kg to 858 kg.
+Adjusted 1500mm Shell resource costs:
+ - Decreased iron cost from 591 to 495.
+ - Decreased nickel cost from 280 to 210.
+ - Decreased cobalt cost from 101 to 84.
+ - Decreased magnesium cost from 147 to 69.
+
+Weapon changes:
+
+Decreased inventory volume of 20mm and 43mm turrets from 300 L to 200 L.
+Increased inventory volume of 20mm and 43mm fixed autocannons from 150 L to 200 L.
+Increased armor damage of 30x145mm shot from 120 to 150.
+Increased health damage of 30x145mm shot from 42 to 68.
+Decreased shot deviation on 300mm Flak Turret from 7.5 to 5.
+Decreased explosion radius of 300mm Flak Shell from 20 m to 10 m.
+Decreased reload time on 400mm Twin Casemate from 6 seconds to 5 seconds.
+Increased shot deviation on 400mm Twin Casemate from 0.5 to 1.0.
+Decreased reload time of FOB-1000 from 10 seconds to 7.5 seconds.
+Increased damage of 1000mm shot from 5500 to 6500.
+Decreased reload time of FOB-1500 from 18 seconds to 9 seconds.
+Increased damage of 1500mm shot from 9000 to 11000.
+
+The following changes do not affect gameplay:
+
+Decreased rate of fire of FOB-1000 from 60 RPM to 1 RPM.
+Decreased rate of fire of FOB-1500 from 60 RPM to 1 RPM.
