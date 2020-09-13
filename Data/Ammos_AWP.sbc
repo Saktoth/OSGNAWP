@@ -39,7 +39,7 @@
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.3</ProjectileTrailScale>
-		<ProjectileTrailColor x="0.75" y="0.75" z="0.8" />
+		<ProjectileTrailColor x="0.1" y="0.1" z="0.2" />
         <ProjectileHitImpulse>3</ProjectileHitImpulse>
         <ProjectileMassDamage>40</ProjectileMassDamage>
         <ProjectileHealthDamage>40</ProjectileHealthDamage>
@@ -79,7 +79,7 @@
       <BasicProperties>
         <DesiredSpeed>350</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>1000</MaxTrajectory>
+        <MaxTrajectory>800</MaxTrajectory>
         <BackkickForce>15</BackkickForce>
         <PhysicalMaterial>GunBullet</PhysicalMaterial>
       </BasicProperties>
@@ -113,7 +113,7 @@
         <MissileAcceleration>400</MissileAcceleration>
         <MissileInitialSpeed>100</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>400</MissileExplosionDamage>
+        <MissileExplosionDamage>800</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
 
@@ -137,7 +137,7 @@
         <MissileAcceleration>100</MissileAcceleration>
         <MissileInitialSpeed>350</MissileInitialSpeed>
         <MissileSkipAcceleration>true</MissileSkipAcceleration>
-        <MissileExplosionDamage>45</MissileExplosionDamage>
+        <MissileExplosionDamage>100</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
 

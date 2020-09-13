@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
+
 	<CategoryClasses>
-	
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -26,9 +26,10 @@
 		<string>Ace_Fixed_220mmMissileLauncher</string>
 		<string>Ace_Fixed_FOB1000</string>
         <string>Ace_Fixed_FOB1500</string>
+				<string>RB_GatlingCannon_Large</string>
       </ItemIds>
     </Category>
-	
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -48,7 +49,7 @@
 	    <string>Ace_Turret_300mmFlakTurret_SG</string>
 	  </ItemIds>
     </Category>
-	
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -69,9 +70,10 @@
         <string>Ace_Fixed_FOB1000</string>
 		<string>Ace_Fixed_FOB1500</string>
 		<string>Ace_Fixed_FC1</string>
+		<string>RB_GatlingCannon_Large</string>
       </ItemIds>
     </Category>
-	
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -102,9 +104,10 @@
 		<string>Ace_Fixed_220mmMissileLauncher</string>
 		<string>Ace_Fixed_FOB1000</string>
         <string>Ace_Fixed_FOB1500</string>
+				<string>RB_GatlingCannon_Large</string>
       </ItemIds>
     </Category>
-	
+
 	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -135,9 +138,10 @@
 		<string>Ace_Fixed_220mmMissileLauncher</string>
 		<string>Ace_Fixed_FOB1000</string>
         <string>Ace_Fixed_FOB1500</string>
+				<string>RB_GatlingCannon_Large</string>
       </ItemIds>
     </Category>
-	
+
 	</CategoryClasses>
-	
+
 </Definitions>

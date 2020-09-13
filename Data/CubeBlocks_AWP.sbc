@@ -1216,6 +1216,56 @@
             <IsAirTight>false</IsAirTight>
 		</Definition>
 
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+       <Id>
+         <TypeId>SmallGatlingGun</TypeId>
+ 		<SubtypeId>RB_GatlingCannon_Large</SubtypeId>
+       </Id>
+       <DisplayName>Gatling Cannon</DisplayName>
+ 	<Icon>Textures\GUI\Icons\Cubes\RB_GatlingCannon.dds</Icon>
+ 	<CubeSize>Large</CubeSize>
+ 	<BlockTopology>TriangleMesh</BlockTopology>
+ 	<Size x="1" y="1" z="6" />
+ 	<ModelOffset x="0" y="0" z="0" />
+ 	<Model>Models\RB_GatlingCannon\RB_GatlingCannon_Large.mwm</Model>
+       <Components>
+         <Component Subtype="SteelPlate" Count="50" />
+         <Component Subtype="Construction" Count="50" />
+         <Component Subtype="MetalGrid" Count="100" />
+         <Component Subtype="SmallTube" Count="150" />
+         <Component Subtype="Motor" Count="50" />
+         <Component Subtype="Computer" Count="50" />
+         <Component Subtype="SteelPlate" Count="150" />
+       </Components>
+       <CriticalComponent Subtype="Computer" Index="0" />
+ 	<BuildProgressModels>
+ 		<Model BuildPercentUpperBound="0.33" File="Models\RB_GatlingCannon\RB_GatlingCannon_Large_Constr1.mwm" />
+ 		<Model BuildPercentUpperBound="0.67" File="Models\RB_GatlingCannon\RB_GatlingCannon_Large_Constr2.mwm" />
+ 		<Model BuildPercentUpperBound="1.00" File="Models\RB_GatlingCannon\RB_GatlingCannon_Large_Constr3.mwm" />
+ 	</BuildProgressModels>
+ 	<MountPoints>
+ 		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="1.00" EndY="1.00" />
+ 		<MountPoint Side="Left" StartX="5.03" StartY="0.01" EndX="6.02" EndY="1.00" />
+ 		<MountPoint Side="Right" StartX="-0.02" StartY="0.01" EndX="0.97" EndY="1.00" />
+ 		<MountPoint Side="Bottom" StartX="0.01" StartY="5.03" EndX="1.00" EndY="6.02" />
+ 		<MountPoint Side="Top" StartX="0.01" StartY="-0.02" EndX="1.00" EndY="0.97" />
+ 	</MountPoints>
+ 	<BlockPairName>RB_GatlingCannon</BlockPairName>
+       <Center x="0" y="0" z="5" />
+       <MirroringY>Z</MirroringY>
+       <MirroringZ>Y</MirroringZ>
+       <BuildTimeSeconds>65</BuildTimeSeconds>
+       <EdgeType>Light</EdgeType>
+       <WeaponDefinitionId Subtype="RB_GatlingCannon_LARGE" />
+       <ResourceSinkGroup>Defense</ResourceSinkGroup>
+       <InventoryMaxVolume>1.28</InventoryMaxVolume>
+       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+       <DamagedSound>ParticleWeapExpl</DamagedSound>
+       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+       <DestroySound>WepSmallWarheadExpl</DestroySound>
+       <PCU>500</PCU>
+     </Definition>
+
 		<!-- FOB-1000 -->
 		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
 			<Id>
