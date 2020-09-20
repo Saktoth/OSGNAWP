@@ -84,7 +84,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Fixed_43Cannon</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="1800" ShootSoundName="20mmPDGShot" />
+      <ProjectileAmmoData RateOfFire="900" ShootSoundName="20mmPDGShot" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 	    <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
@@ -100,10 +100,10 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Turret_43RAC</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="1200" ShootSoundName="20mmPDGShot" />
+      <ProjectileAmmoData RateOfFire="600" ShootSoundName="20mmPDGShot" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>1.2</DeviateShotAngle>
+      <DeviateShotAngle>1.5</DeviateShotAngle>
       <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="Ace_43x307mmAmmoBox" />
@@ -115,10 +115,11 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Turret_150Artillery</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="200" ShootSoundName="150mmArtilleryShot" />
+      <ProjectileAmmoData RateOfFire="400" ShootSoundName="150mmArtilleryShot" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>1.5</DeviateShotAngle>
+      <SecondarySoundName>150mmArtilleryShot</SecondarySoundName>
+      <DeviateShotAngle>2.5</DeviateShotAngle>
       <MuzzleFlashLifeSpan>400</MuzzleFlashLifeSpan>
       <AmmoMagazines>
 		  <AmmoMagazine Subtype="Ace_150mmShell" />
@@ -132,7 +133,7 @@
       </Id>
       <MissileAmmoData RateOfFire="450" ShootSoundName="220mmMissileShot" ShotsInBurst="4"/>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>1</DeviateShotAngle>
+      <DeviateShotAngle>1.2</DeviateShotAngle>
       <AmmoMagazines>
 		<AmmoMagazine Subtype="Ace_220mmBurstMissile" />
       </AmmoMagazines>
@@ -144,13 +145,13 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Turret_220MissileBattery</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="320" ShootSoundName="220mmMissileShot" ShotsInBurst="8"/>
+      <MissileAmmoData RateOfFire="220" ShootSoundName="220mmMissileShot" ShotsInBurst="4"/>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <DeviateShotAngle>2</DeviateShotAngle>
       <AmmoMagazines>
   		  <AmmoMagazine Subtype="Ace_220mmBurstMissile" />
       </AmmoMagazines>
-	    <ReloadTime>6000</ReloadTime>
+	    <ReloadTime>4000</ReloadTime>
     </Weapon>
 
 	<Weapon>
@@ -164,7 +165,7 @@
       <AmmoMagazines>
 		    <AmmoMagazine Subtype="Ace_300mmShellFlak" />
       </AmmoMagazines>
-      <ReloadTime>4000</ReloadTime>
+      <ReloadTime>1000</ReloadTime>
     </Weapon>
 
 	<Weapon>
@@ -178,7 +179,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="Ace_300mmShellFlak" />
       </AmmoMagazines>
-	    <ReloadTime>4000</ReloadTime>
+	    <ReloadTime>1000</ReloadTime>
     </Weapon>
 
 	<Weapon>
@@ -256,15 +257,16 @@
       <TypeId>WeaponDefinition</TypeId>
       <SubtypeId>RB_GatlingCannon_LARGE</SubtypeId>
     </Id>
-    <ProjectileAmmoData RateOfFire="4200" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1620" />
+    <ProjectileAmmoData RateOfFire="2500" ShootSoundName="150mmArtilleryShot" ShotsInBurst="20" />
     <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-    <DeviateShotAngle>0.4</DeviateShotAngle>
+    <DeviateShotAngle>1</DeviateShotAngle>
     <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
     <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
     <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
     <AmmoMagazines>
-      <AmmoMagazine Subtype="NATO_25x184mm" />
+		  <AmmoMagazine Subtype="Ace_150mmShell" />
     </AmmoMagazines>
+    <ReloadTime>14000</ReloadTime>
   </Weapon>
 
 	<Weapon>
@@ -272,7 +274,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Fixed_FOB1000</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="60" ShootSoundName="FOB1000Shot" ShotsInBurst="6" />
+      <MissileAmmoData RateOfFire="80" ShootSoundName="FOB1000Shot" ShotsInBurst="6" />
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <DeviateShotAngle>0.75</DeviateShotAngle>
       <AmmoMagazines>
@@ -286,7 +288,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Ace_Fixed_FOB1500</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="80" ShootSoundName="FOB1500Shot" ShotsInBurst="3" />
+      <MissileAmmoData RateOfFire="60" ShootSoundName="FOB1500Shot" ShotsInBurst="3" />
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <DeviateShotAngle>0.5</DeviateShotAngle>
       <AmmoMagazines>

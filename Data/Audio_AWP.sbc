@@ -23,7 +23,7 @@
 		</Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -45,7 +45,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -67,7 +67,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -82,14 +82,14 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>15</DynamicMusicAmount>
       <Loopable>false</Loopable>
-      <Volume>2</Volume>
+      <Volume>1</Volume>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Arcade\Arcade150mmArtillery.wav</Start>
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -111,7 +111,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -133,7 +133,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -155,7 +155,7 @@
         </Wave>
       </Waves>
     </Sound>
-  
+
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -177,7 +177,7 @@
         </Wave>
       </Waves>
     </Sound>
-    
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -199,7 +199,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -221,6 +221,6 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
   </Sounds>
 </Definitions>

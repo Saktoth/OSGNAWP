@@ -39,7 +39,7 @@
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.3</ProjectileTrailScale>
-		<ProjectileTrailColor x="0.1" y="0.1" z="0.2" />
+		<ProjectileTrailColor x="0.1" y="0.1" z="0.1" />
         <ProjectileHitImpulse>3</ProjectileHitImpulse>
         <ProjectileMassDamage>40</ProjectileMassDamage>
         <ProjectileHealthDamage>40</ProjectileHealthDamage>
@@ -64,7 +64,7 @@
         <ProjectileTrailScale>0.3</ProjectileTrailScale>
 		<ProjectileTrailColor x="1.000" y="0.7" z="0.55" />
         <ProjectileHitImpulse>15</ProjectileHitImpulse>
-        <ProjectileMassDamage>100</ProjectileMassDamage>
+        <ProjectileMassDamage>200</ProjectileMassDamage>
         <ProjectileHealthDamage>54</ProjectileHealthDamage>
         <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
         <HeadShot>true</HeadShot>
@@ -78,7 +78,7 @@
       </Id>
       <BasicProperties>
         <DesiredSpeed>350</DesiredSpeed>
-        <SpeedVariance>0</SpeedVariance>
+        <SpeedVariance>0.1</SpeedVariance>
         <MaxTrajectory>800</MaxTrajectory>
         <BackkickForce>15</BackkickForce>
         <PhysicalMaterial>GunBullet</PhysicalMaterial>
@@ -87,7 +87,7 @@
         <ProjectileTrailScale>0.5</ProjectileTrailScale>
       	<ProjectileTrailColor x="2" y="1.75" z="1.55" />
         <ProjectileHitImpulse>50</ProjectileHitImpulse>
-        <ProjectileMassDamage>500</ProjectileMassDamage>
+        <ProjectileMassDamage>250</ProjectileMassDamage>
         <ProjectileHealthDamage>100</ProjectileHealthDamage>
         <ProjectileTrailProbability>1</ProjectileTrailProbability>
       </ProjectileProperties>
@@ -99,7 +99,7 @@
         <SubtypeId>Ace_220mmBurstMissile</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>300</DesiredSpeed>
+        <DesiredSpeed>400</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
         <MaxTrajectory>1000</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
@@ -110,8 +110,8 @@
         <MissileMass>40</MissileMass>
         <MissileExplosionRadius>5</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\220mmBurstMissile.mwm</MissileModelName>
-        <MissileAcceleration>400</MissileAcceleration>
-        <MissileInitialSpeed>100</MissileInitialSpeed>
+        <MissileAcceleration>2000</MissileAcceleration>
+        <MissileInitialSpeed>10</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
         <MissileExplosionDamage>800</MissileExplosionDamage>
       </MissileProperties>
@@ -158,9 +158,9 @@
         <MissileMass>140</MissileMass>
         <MissileExplosionRadius>2</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\400mmShellFlight.mwm</MissileModelName>
-        <MissileAcceleration>100</MissileAcceleration>
-        <MissileInitialSpeed>300</MissileInitialSpeed>
-        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileAcceleration>600</MissileAcceleration>
+        <MissileInitialSpeed>250</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
         <MissileExplosionDamage>2200</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
