@@ -255,7 +255,7 @@
   <Weapon>
     <Id>
       <TypeId>WeaponDefinition</TypeId>
-      <SubtypeId>RB_GatlingCannon_LARGE</SubtypeId>
+      <SubtypeId>Gatling_Cannon_Large</SubtypeId>
     </Id>
     <ProjectileAmmoData RateOfFire="2500" ShootSoundName="150mmArtilleryShot" ShotsInBurst="20" />
     <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
