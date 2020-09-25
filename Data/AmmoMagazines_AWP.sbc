@@ -78,7 +78,7 @@
       <Volume>12</Volume>
       <Model>Models\Weapons\150mmShell.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>1</Capacity>
+      <Capacity>50</Capacity>
       <AmmoDefinitionId Subtype="Ace_150mmShell" />
     </AmmoMagazine>
 
@@ -118,7 +118,7 @@
       <Volume>30</Volume>
       <Model>Models\Weapons\300mmShell.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>1</Capacity>
+      <Capacity>24</Capacity>
       <AmmoDefinitionId Subtype="Ace_300mmShellFlak" />
     </AmmoMagazine>
 
@@ -138,7 +138,7 @@
       <Volume>38</Volume>
       <Model>Models\Weapons\400mmShell.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>1</Capacity>
+      <Capacity>12</Capacity>
       <AmmoDefinitionId Subtype="Ace_400mmShell" />
     </AmmoMagazine>
 

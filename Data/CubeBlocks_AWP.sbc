@@ -971,15 +971,15 @@
 			<Model>Models\400mm Casemate Twin\Ace_Turret_400mmCasemateTwin.mwm</Model>
 			<Components>
 								<Component Subtype="SteelPlate" Count="60" />
-								<Component Subtype="AdvancedComponent" Count="23" />
+								<Component Subtype="AdvancedComponent" Count="22" />
                 <Component Subtype="Construction" Count="30" />
-								<Component Subtype="InteriorPlate" Count="15" />
+								<Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="MetalGrid" Count="16" />
                 <Component Subtype="Motor" Count="30" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Computer" Count="15" />
-								<Component Subtype="SmallTube" Count="35" />
                 <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="170" />
+                <Component Subtype="SteelPlate" Count="200" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -1041,13 +1041,13 @@
 								<Component Subtype="SteelPlate" Count="60" />
 								<Component Subtype="AdvancedComponent" Count="30" />
                 <Component Subtype="Construction" Count="30" />
-								<Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="MetalGrid" Count="16" />
                 <Component Subtype="Motor" Count="30" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Computer" Count="15" />
 								<Component Subtype="SmallTube" Count="35" />
                 <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="170" />
+                <Component Subtype="SteelPlate" Count="260" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -1105,13 +1105,13 @@
 								<Component Subtype="SteelPlate" Count="60" />
 								<Component Subtype="AdvancedComponent" Count="30" />
                 <Component Subtype="Construction" Count="30" />
-								<Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="MetalGrid" Count="16" />
                 <Component Subtype="Motor" Count="30" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Computer" Count="15" />
 								<Component Subtype="SmallTube" Count="35" />
                 <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="170" />
+                <Component Subtype="SteelPlate" Count="220" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -1169,13 +1169,13 @@
 								<Component Subtype="SteelPlate" Count="90" />
 								<Component Subtype="AdvancedComponent" Count="40" />
                 <Component Subtype="Construction" Count="40" />
-								<Component Subtype="InteriorPlate" Count="25" />
+                <Component Subtype="MetalGrid" Count="24" />
                 <Component Subtype="Motor" Count="40" />
                 <Component Subtype="LargeTube" Count="60" />
                 <Component Subtype="Computer" Count="20" />
 								<Component Subtype="SmallTube" Count="50" />
                 <Component Subtype="Construction" Count="40" />
-                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="SteelPlate" Count="320" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -1442,6 +1442,178 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>800</PCU>
 			<Public>false</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeHeavyBlockArmorBlock</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_HeavyArmorBlock</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+			<Description>Description_HeavyArmor</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Box</CubeTopology>
+				<ShowEdges>true</ShowEdges>
+				<Sides>
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="135" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<Variants>
+				<Variant Color="Red" Suffix="_red" />
+				<Variant Color="Yellow" Suffix="_yellow" />
+				<Variant Color="Blue" Suffix="_blue" />
+				<Variant Color="Green" Suffix="_green" />
+				<Variant Color="Black" Suffix="_black" />
+				<Variant Color="White" Suffix="_white" />
+			</Variants>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_3.mwm" RandomOrientation="true" />
+			</BuildProgressModels>
+			<Skeleton>
+				<BoneInfo>
+					<BonePosition x="0" y="0" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="0" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="0" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="1" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="1" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="1" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="2" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="2" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="0" y="2" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="0" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="0" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="0" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="1" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="1" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="1" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="2" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="2" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="1" y="2" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="0" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="0" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="0" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="1" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="1" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="1" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="2" z="0" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="2" z="1" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+					<BonePosition x="2" y="2" z="2" />
+					<BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			</Skeleton>
+			<BlockPairName>HeavyArmorBlock</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+			<PCU>1</PCU>
+			<PCUConsole>2</PCUConsole>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 	</CubeBlocks>

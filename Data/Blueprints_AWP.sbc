@@ -13,7 +13,7 @@
         <Item Amount="5400" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="270" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="150" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Volantium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Volantium" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Ace_20x110mmAmmoBox" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
@@ -47,7 +47,7 @@
         <Item Amount="300" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Uranium" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Volantium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Volantium" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Ace_43x307mmAmmoBox" />
       <BaseProductionTimeInSeconds>28</BaseProductionTimeInSeconds>
