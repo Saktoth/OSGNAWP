@@ -686,7 +686,7 @@
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
             <IdleRotation>false</IdleRotation>
-            <MaxRangeMeters>800</MaxRangeMeters>
+            <MaxRangeMeters>1000</MaxRangeMeters>
             <RotationSpeed>0.002</RotationSpeed>
             <ElevationSpeed>0.003 </ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>

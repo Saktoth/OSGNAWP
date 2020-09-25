@@ -16,7 +16,7 @@
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.2</ProjectileTrailScale>
-		<ProjectileTrailColor x="0.8" y="0.8" z="1.0" />
+		<ProjectileTrailColor x="0.7" y="0.7" z="1.0" />
         <ProjectileHitImpulse>1</ProjectileHitImpulse>
         <ProjectileMassDamage>30</ProjectileMassDamage>
         <ProjectileHealthDamage>30</ProjectileHealthDamage>
@@ -32,14 +32,14 @@
       </Id>
       <BasicProperties>
         <DesiredSpeed>600</DesiredSpeed>
-        <SpeedVariance>0</SpeedVariance>
+        <SpeedVariance>0.2</SpeedVariance>
         <MaxTrajectory>800</MaxTrajectory>
         <BackkickForce>10</BackkickForce>
         <PhysicalMaterial>GunBullet</PhysicalMaterial>
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.3</ProjectileTrailScale>
-		<ProjectileTrailColor x="0.1" y="0.1" z="0.1" />
+		<ProjectileTrailColor x="0.1" y="0.05" z="0.1" />
         <ProjectileHitImpulse>1</ProjectileHitImpulse>
         <ProjectileMassDamage>40</ProjectileMassDamage>
         <ProjectileHealthDamage>40</ProjectileHealthDamage>
@@ -84,8 +84,8 @@
         <PhysicalMaterial>GunBullet</PhysicalMaterial>
       </BasicProperties>
       <ProjectileProperties>
-        <ProjectileTrailScale>0.5</ProjectileTrailScale>
-      	<ProjectileTrailColor x="2" y="1.75" z="1.55" />
+        <ProjectileTrailScale>0.4</ProjectileTrailScale>
+      	<ProjectileTrailColor x="1.1" y="1.0" z="0.9" />
         <ProjectileHitImpulse>10</ProjectileHitImpulse>
         <ProjectileMassDamage>250</ProjectileMassDamage>
         <ProjectileHealthDamage>100</ProjectileHealthDamage>
