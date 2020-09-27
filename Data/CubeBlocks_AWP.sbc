@@ -1221,8 +1221,8 @@
          <TypeId>SmallGatlingGun</TypeId>
  		<SubtypeId>Gatling_Cannon_Large</SubtypeId>
        </Id>
-       <DisplayName>Gatling Cannon</DisplayName>
- 	<Icon>Textures\GUI\Icons\Cubes\RB_GatlingCannon.dds</Icon>
+       <DisplayName>150mm Gatling Cannon</DisplayName>
+ 	<Icon>Textures\GUI\Icons\Cubes\GatlingCannon.dds</Icon>
  	<CubeSize>Large</CubeSize>
  	<BlockTopology>TriangleMesh</BlockTopology>
  	<Size x="1" y="1" z="4" />
