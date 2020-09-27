@@ -137,7 +137,7 @@
       <AmmoMagazines>
 		<AmmoMagazine Subtype="Ace_220mmBurstMissile" />
       </AmmoMagazines>
-	  <ReloadTime>1000</ReloadTime>
+	  <ReloadTime>1500</ReloadTime>
     </Weapon>
 
 	<Weapon>
